@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+UnifiedDataset/
+
+# Machine-learning outputs and checkpoints
+outputs/
+runs/
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
